@@ -29,13 +29,17 @@ public class Metods {
         return max;
     }
 
-    public boolean isPositive (int x){
+    public Boolean isPositive (int x){
 
-        boolean result = false;
+        Boolean result = false;
 
         if (x>0){
 
             result = true;
+        }
+        else if(x == 0)
+        {
+            result = null;
         }
 
         return result;

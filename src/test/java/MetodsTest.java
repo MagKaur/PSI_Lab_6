@@ -28,4 +28,11 @@ public class MetodsTest {
         Metods metods = new Metods();
         Assert.assertEquals(metods.isPositive(-23), false);
     }
+
+    @Test
+    public void testIsPositiveZero()
+    {
+        Metods metods = new Metods();
+        Assert.assertEquals(metods.isPositive(0), null);
+    }
 }
